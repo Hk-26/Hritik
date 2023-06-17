@@ -1,0 +1,163 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    height: 70px;
+    width: 100%;
+    background-color: cadetblue;
+
+
+}
+
+.header img {
+    width: 45px;
+    margin-left: 65px;
+    margin-bottom: 15px;
+
+}
+
+.header ul {
+    float: right;
+    padding: 10px;
+    margin-right: 40px;
+}
+
+.header li {
+    color: aliceblue;
+    display: inline-block;
+    padding: 10px;
+}
+
+.header li a {
+
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+.main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/img\ 2.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+
+.container {
+    color: aliceblue;
+    padding-top: 120PX;
+}
+
+.container button {
+    color: aliceblue;
+    background-color: brown;
+    border-radius: 5PX;
+    font-size: 20px;
+    padding: 7px;
+}
+
+.middel {
+    height: 550px;
+    width: 100%;
+}
+
+.object1 {
+    float: left;
+    height: 500px;
+    width: 50%;
+    padding: 90px;
+}
+
+.object1 button {
+    margin-top: 15px;
+    color: black;
+    border-radius: 5PX;
+    font-size: 20px;
+    padding: 12px;
+}
+
+.object2 {
+    float: right;
+    height: 500px;
+    width: 50%;
+    background-size: cover;
+    padding: 70px;
+}
+
+
+
+
+.function {
+    height: 600px;
+    width: 100%;
+
+}
+
+.function button {
+    margin-top: 5px;
+    padding: 15px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+}
+
+.left {
+    height: 600px;
+    width: 67%;
+    float: left;
+
+}
+
+.right {
+    height: 600px;
+    width: 33%;
+    float: right;
+}
+
+.left1 {
+    height: 600px;
+    width: 50%;
+    float: left;
+
+
+}
+
+.left2 {
+    height: 600px;
+    width: 50%;
+    float: right;
+
+}
+
+.footer {
+
+    height: 350px;
+    width: 100%;
+    background-color: cadetblue;
+    color: aliceblue;
+    text-align: center;
+    padding: 70px;
+}
+
+
+
+.features .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.features .box-container .box {
+    padding: 3rem 2rem;
+    background: #fff;
+}
+
+.box button {
+    margin-top: 15px;
+    color: black;
+    background-color: white;
+    border-radius: 5PX;
+    font-size: 20px;
+    padding: 12px;
+}
